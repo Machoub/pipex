@@ -36,36 +36,31 @@ pipex/
 ├── Makefile
 └── README.md
 
-yaml
-Copier
-Modifier
 
 ---
 
 ## 🔧 Build
 
-```bash
+```
 make        # Compiles the project
 make clean  # Removes object files
 make fclean # Cleans everything
 make re     # Full rebuild
+```
 ## 🧪 Usage
+
 Basic usage (2 commands):
-bash
-Copier
-Modifier
+
 ./pipex infile "cmd1" "cmd2" outfile
+
 Is equivalent to:
 
-bash
-Copier
-Modifier
 < infile cmd1 | cmd2 > outfile
-Example:
-bash
-Copier
-Modifier
+
+Example:r
+
 ./pipex input.txt "grep error" "wc -l" output.txt
+
 ## 🧠 What I Learned
 Process creation with fork()
 
