@@ -24,7 +24,7 @@ The goal is to execute a series of commands connected via UNIX pipes (e.g. `< in
 ---
 
 ## 📂 Project Structure
-
+```
 pipex/
 ├── src/ # Source files
 │ ├── pipex.c
@@ -35,7 +35,7 @@ pipex/
 │ └── pipex.h
 ├── Makefile
 └── README.md
-
+```
 
 ---
 
