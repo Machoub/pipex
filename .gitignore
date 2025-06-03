@@ -1,0 +1,19 @@
+# Compiled binary
+pipex
+
+# Object files
+*.o
+
+# Libft compiled archive
+libft/libft.a
+
+# Vim / Emacs / VSCode temp files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS / terminal trash
+.DS_Store
+__pycache__/
