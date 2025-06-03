@@ -50,17 +50,17 @@ make re     # Full rebuild
 ## 🧪 Usage
 
 Basic usage (2 commands):
-
+```
 ./pipex infile "cmd1" "cmd2" outfile
-
+```
 Is equivalent to:
-
+```
 < infile cmd1 | cmd2 > outfile
-
+```
 Example:r
-
+```
 ./pipex input.txt "grep error" "wc -l" output.txt
-
+```
 ## 🧠 What I Learned
 Process creation with fork()
 
